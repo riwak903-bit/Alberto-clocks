@@ -1,0 +1,231 @@
+/*  General styling  */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+    color: #F5F1E8;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar section start */
+.navbar {
+    background-color: #111111;
+    padding: 15px 30px;
+}
+.navbar-nav {
+    gap: 15px;
+}
+.nav-link {
+    color: #F5F1E8 !important;
+}
+.nav-link:hover {
+    color: #C6A15B !important;
+}
+.nav-link.active {
+    color: #C6A15B !important;
+}
+.dropdown-menu {
+    background-color: #111111;
+}
+.dropdown-item {
+    color: #F5F1E8;
+}
+.dropdown-item:hover {
+    background-color: #C6A15B;
+    color: #111111;
+}
+/* Navbar section end */
+
+/* Home / Video section start */
+#home video {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+#home video {
+    transition: 0.5s;
+}
+#home video:hover {
+    transform: scale(1.02);
+}
+/* Home / Video section end */
+
+/* Introduction section start */
+#home + section {
+    padding: 60px 0;
+}
+#home + section h1 {
+    font-size: 50px;
+}
+#home + section h3 {
+    color: #C6A15B;
+}
+#home + section p {
+    line-height: 1.8;
+}
+#home + section img {
+    width: 100%;
+}
+#home + section img {
+    transition: 0.3s;
+}
+#home + section img:hover {
+    transform: translateY(-5px);
+}
+/* Introduction section end */
+
+/* Collections section start */
+#collections {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+#collections h2 {
+    color: #C6A15B;
+}
+#collections .card {
+    background-color: #1C1C1C;
+    color: #F5F1E8;
+    border: 1px solid #333333;
+}
+#collections .card img {
+    height: 300px;
+    object-fit: cover;
+}
+.card img {
+    transition: 0.3s;
+}
+.card img:hover {
+    transform: translateY(-5px);
+}
+#collections .card-title {
+    color: #C6A15B;
+}
+#collections .card-text {
+    color: #F5F1E8;
+}
+.btn-dark {
+    background-color: #C6A15B;
+    color: #111111;
+    border: none;
+}
+.btn-dark:hover {
+    background-color: #F5F1E8;
+    color: #111111;
+}
+/* Collections section end */
+
+/* Watch sections start */
+#luxury-watches,
+#classic-watches,
+#smart-watches,
+#vintage-watches {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+#luxury-watches h2,
+#classic-watches h2,
+#smart-watches h2,
+#vintage-watches h2 {
+    color: #C6A15B;
+}
+#luxury-watches img,
+#classic-watches img,
+#smart-watches img,
+#vintage-watches img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+#luxury-watches img,
+#classic-watches img,
+#smart-watches img,
+#vintage-watches img {
+    transition: 0.3s;
+}
+#luxury-watches img:hover,
+#classic-watches img:hover,
+#smart-watches img:hover,
+#vintage-watches img:hover {
+    transform: translateY(-5px);
+}
+/* Watch sections end */
+
+/* Gallery section start */
+#gallery {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+#gallery h2 {
+    color: #C6A15B;
+}
+#gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#gallery img {
+    transition: 0.3s;
+}
+#gallery img:hover {
+    transform: translateY(-5px);
+}
+/* Gallery section end */
+
+/* About Us section start */
+#about {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+#about h2 {
+    color: #C6A15B;
+}
+#about p {
+    line-height: 1.8;
+}
+/* About Us section end */
+
+/* Contact Us section start */
+#contact {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+#contact h2 {
+    color: #C6A15B;
+}
+#contact p {
+    margin-bottom: 8px;
+}
+/* Contact Us section end */
+
+/* Footer section start */
+footer {
+    background-color: #1C1C1C;
+    color: #F5F1E8;
+}
+/* Footer section end */
+
+/* Responsive section start */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+    #home video {
+        height: 400px;
+    }
+    #home + section h1 {
+        font-size: 40px;
+    }
+    #luxury-watches img,
+    #classic-watches img,
+    #smart-watches img,
+    #vintage-watches img {
+        height: 280px;
+    }
+    #gallery img {
+        height: 220px;
+    }
+}
+/* Responsive section end */
+
